@@ -1,0 +1,16 @@
+
+### themes from https://github.com/alacritty/alacritty-theme.git
+import = [
+    "~/.config/alacritty/themes/themes/tokyo-night.toml"
+]
+
+[font]
+size = 11.0
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+
+[window.padding]
+x = 12
+y = 12
+

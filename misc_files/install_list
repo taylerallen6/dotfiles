@@ -1,0 +1,110 @@
+### possible themes
+https://github.com/vinceliuice/Graphite-gtk-theme.git
+https://draculatheme.com/gtk
+https://github.com/dracula/gtk
+
+### alacritty themes
+https://github.com/alacritty/alacritty-theme
+
+
+### pacman installs
+ristretto #image viewer
+brightnessctl #control backlight
+light #also for backlight ?
+nwg-look # theming tool
+swaync # notification center ?
+swaybg # background
+man-db # man pages
+ttf-jetbrains-mono-nerd # fonts
+ttf-firacode-nerd # another font
+greetd-tuigreet # login greeter
+swayidle # for locking on sleep/idle
+ranger # file explorer
+nmap # network stuff
+tree ? # show file tree
+
+### yay installs
+gtklock #lock screen
+grimblast #screenshot tool
+yay -S neovim-git #neovim nightly (has rust inlay hints)
+
+### copy tuigreet to /etc/tuigreet
+sudo cp tuigreet_config.toml /etc/greetd/config.toml
+
+### harden firefox
+
+### rofi
+
+### rust
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+rustup component add rls
+rustup component add rust-analyzer
+rustup component add clippy
+rustup component add rust-std
+
+
+
+
+# NEW PACMAN LIST
+# alacritty 0.13.2-2
+alsa-utils 1.2.11-1
+base 3-2
+base-devel 1-1
+bluez 5.75-1
+bluez-utils 5.75-1
+brightnessctl 0.5.1-2
+btop 1.3.2-1
+efibootmgr 18-3
+fastfetch 2.11.5-1
+firefox 125.0.3-2
+gimp 2.10.38-1
+git 2.45.0-1
+go 2:1.22.3-1
+greetd-tuigreet 0.9.0-1
+grimblast-git r101.110e6dc-1
+grub 2:2.12-2
+gtklock 3.0.0-1
+helix 24.03-1
+htop 3.3.0-2
+hyprland 0.40.0-1
+hyprpaper 0.7.0-1
+linux 6.8.9.arch1-2
+linux-firmware 20240409.1addd7dc-1
+man-db 2.12.1-1
+mlocate 0.26.git.20170220-7
+nano 8.0-1
+neofetch 7.1.0-2
+neovim-git 0.10.0.r3116.gc1396afa7c-1
+networkmanager 1.46.0-2
+nmap 7.95-1
+nsxiv 32-4
+nwg-look 0.2.7-1
+pavucontrol 1:5.0+r66+gc330506-1
+pulseaudio-bluetooth 17.0-3
+ranger 1.9.3-11
+ristretto 0.13.2-1
+sassc 3.6.2-4
+sof-firmware 2024.03-1
+stow 2.4.0-1
+swaybg 1.2.1-1
+swayidle 1.8.0-1
+thunar 4.18.10-2
+tree 2.1.1-1
+ttf-firacode-nerd 3.2.1-2
+ttf-font-awesome 6.5.2-1
+ttf-jetbrains-mono-nerd 3.2.1-2
+unzip 6.0-20
+waybar 0.10.3-1
+wofi 1.4.1-1
+wpa_supplicant 2:2.10-8
+xdg-user-dirs 0.18-1
+xdg-utils 1.2.1-1
+yay 12.3.5-1
+yay-debug 12.3.5-1
+zsh 5.9-5
+
+evince # pdf/document viewer
+libreoffice-still # document/speadsheet editor
+fuse2 # dependency to run appimages
+sonic-visualiser # visualizing audio
+audacity # edit audio data

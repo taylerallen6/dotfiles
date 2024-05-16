@@ -1,0 +1,24 @@
+#!/bin/bash
+
+### set gtk themes, icons, cursor and fonts
+
+THEME='dracula-gtk'
+ICONS='dracula-icons'
+#FONT=''
+#CURSOR=''
+
+SCHEMA='gsettings set org.gnome.desktop.interface'
+
+apply_themes() {
+	gsettings set org.gnome.desktop.interface gtk-theme "$THEME"
+	gsettings set org.gnome.desktop.wm.preferences theme "$THEME"
+
+	gsettings set org.gnome.desktop.interface icon-theme "$ICONS"
+
+	#${SCHEMA} gtk-theme "$THEME"
+	#${SCHEMA} icon-theme "$ICONS"
+	#${SCHEMA} cursor-theme "$CURSOR"
+	#${SCHEMA} font-name "$FONT"
+}
+
+apply_themes

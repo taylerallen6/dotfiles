@@ -1,0 +1,16 @@
+
+### themes from https://github.com/alacritty/alacritty-theme.git
+import = [
+    "~/.config/alacritty/themes/themes/nord2.toml"
+]
+
+[font]
+size = 12.0
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+
+[window.padding]
+x = 10
+y = 10
+
