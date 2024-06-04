@@ -27,6 +27,8 @@ tree ? # show file tree
 gtklock #lock screen
 grimblast #screenshot tool
 yay -S neovim-git #neovim nightly (has rust inlay hints)
+gobuster #directory buster
+xdg-desktop-portal-hyprland-git # for screen sharing
 
 ### copy tuigreet to /etc/tuigreet
 sudo cp tuigreet_config.toml /etc/greetd/config.toml
@@ -108,3 +110,8 @@ libreoffice-still # document/speadsheet editor
 fuse2 # dependency to run appimages
 sonic-visualiser # visualizing audio
 audacity # edit audio data
+pipewire # for screen sharing
+wireplumber # for screen sharing
+grim # for screen sharing
+slurp # for screen sharing
+wl-clipboard # for copying neovim to clipboard
