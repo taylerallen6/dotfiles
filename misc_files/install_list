@@ -22,6 +22,12 @@ swayidle # for locking on sleep/idle
 ranger # file explorer
 nmap # network stuff
 tree ? # show file tree
+## ?
+neofetch
+fastfetch
+pavucontrol
+
+
 
 ### yay installs
 gtklock #lock screen
@@ -48,7 +54,7 @@ rustup component add rust-std
 
 
 # NEW PACMAN LIST
-# alacritty 0.13.2-2
+alacritty 0.13.2-2
 alsa-utils 1.2.11-1
 base 3-2
 base-devel 1-1
@@ -115,3 +121,4 @@ wireplumber # for screen sharing
 grim # for screen sharing
 slurp # for screen sharing
 wl-clipboard # for copying neovim to clipboard
+lsof # check sockets open AND other stuff
