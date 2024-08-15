@@ -30,7 +30,7 @@
     "network": {
         "format-wifi" : "{icon} {signalStrength}%",
         "format-icons": ["󰤯","󰤟","󰤢","󰤥","󰤨"],
-        "format-ethernet": "  ETH",
+        "format-ethernet": "  ETH",
         "format-disconnected" : "󰖪 disconnected",
         "tooltip-format-wifi": "{ipaddr}/{cidr} {essid}\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
         "tooltip-format-ethernet": "{ipaddr}/{cidr} {ifname}\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
@@ -68,7 +68,7 @@
         "format-muted": "󰝟",
         "format-icons": {
             "headphone": "",
-            "default": ["󰖀","󰕾",""]
+            "default": ["","", "", ""]
         },
         "on-click": "pavucontrol",
         "scroll-step": 2
@@ -93,7 +93,7 @@
         "on-click": "alacritty -e htop"
     },
     "memory": {
-        "format": "  {}%",
+        "format": " {}%",
 	"tooltip-format": "{used} GiB / {total} GiB",
 	"interval": 5,
 	"on-click": "alacritty -e htop"
@@ -111,7 +111,7 @@
         "critical-threshold": 80,
         // "format-critical": "{temperatureC}°C {icon}",
         "format": "{icon} {temperatureC}°C",
-        "format-icons": ["", "", ""],
+        "format-icons": [""],
         "on-click": "alacritty -e htop"
     },
 }

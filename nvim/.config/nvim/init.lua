@@ -197,7 +197,7 @@ vim.keymap.set("n", "<C-l>", "<C-w><C-l>", { desc = "Move focus to the right win
 vim.keymap.set("n", "<C-j>", "<C-w><C-j>", { desc = "Move focus to the lower window" })
 vim.keymap.set("n", "<C-k>", "<C-w><C-k>", { desc = "Move focus to the upper window" })
 
--- MY CUSTOM KEYMAPS
+-- INFO: MY CUSTOM KEYMAPS
 vim.keymap.set("n", "<leader>mf", "<cmd>NvimTreeToggle<cr>", { desc = "[F]older" })
 
 -- [[ Basic Autocommands ]]
@@ -333,6 +333,9 @@ require("lazy").setup({
 				["<leader>w"] = { name = "[W]orkspace", _ = "which_key_ignore" },
 				["<leader>t"] = { name = "[T]oggle", _ = "which_key_ignore" },
 				["<leader>h"] = { name = "Git [H]unk", _ = "which_key_ignore" },
+
+				-- INFO: my custom keys
+				["<leader>m"] = { name = "[M]y custom keys", _ = "which_key_ignore" },
 			})
 			-- visual mode
 			require("which-key").register({

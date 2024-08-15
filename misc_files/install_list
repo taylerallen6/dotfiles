@@ -9,8 +9,9 @@ https://github.com/alacritty/alacritty-theme
 
 ### pacman installs
 ristretto #image viewer
+thunar # file explorer
 brightnessctl #control backlight
-light #also for backlight ?
+light #also for backlight ???????????
 nwg-look # theming tool
 swaync # notification center ?
 swaybg # background
@@ -25,8 +26,17 @@ tree ? # show file tree
 ## ?
 neofetch
 fastfetch
+htop
+unzip
 pavucontrol
-
+alsa-utils
+firefox
+waybar
+stow
+blender
+rsync
+vlc # video player
+libreoffice-still
 
 
 ### yay installs
@@ -38,6 +48,10 @@ xdg-desktop-portal-hyprland-git # for screen sharing
 
 ### copy tuigreet to /etc/tuigreet
 sudo cp tuigreet_config.toml /etc/greetd/config.toml
+
+### nvm / npm / node.js
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+nvm install 20.0 # installs node v20.0
 
 ### harden firefox
 
@@ -117,6 +131,9 @@ fuse2 # dependency to run appimages
 sonic-visualiser # visualizing audio
 audacity # edit audio data
 pipewire # for screen sharing
+pipewire-audio # for screen sharing audio (?)
+pipewire-pulse # for screen sharing audio (?)
+pipewire-alsa # for screen sharing audio (?)
 wireplumber # for screen sharing
 grim # for screen sharing
 slurp # for screen sharing
