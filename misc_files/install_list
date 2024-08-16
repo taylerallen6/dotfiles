@@ -22,8 +22,7 @@ greetd-tuigreet # login greeter
 swayidle # for locking on sleep/idle
 ranger # file explorer
 nmap # network stuff
-tree ? # show file tree
-## ?
+tree # show file tree
 neofetch
 fastfetch
 htop
@@ -32,19 +31,22 @@ pavucontrol
 alsa-utils
 firefox
 waybar
-stow
+stow # sync dotfiles to their proper location.
 blender
-rsync
+rsync # for backing up files.
 vlc # video player
-libreoffice-still
-
+evince # pdf/document viewer
+libreoffice-still # document/speadsheet editor
+fuse2 # dependency to run appimages
+sonic-visualiser # visualizing audio
+audacity # edit audio data
+wl-clipboard # for copying neovim to clipboard
+lsof # check sockets open AND o
 
 ### yay installs
 gtklock #lock screen
-grimblast #screenshot tool
 yay -S neovim-git #neovim nightly (has rust inlay hints)
 gobuster #directory buster
-xdg-desktop-portal-hyprland-git # for screen sharing
 
 ### copy tuigreet to /etc/tuigreet
 sudo cp tuigreet_config.toml /etc/greetd/config.toml
@@ -64,6 +66,26 @@ rustup component add rust-analyzer
 rustup component add clippy
 rustup component add rust-std
 
+
+# SCREEN SHARING
+# https://gist.github.com/brunoanc/2dea6ddf6974ba4e5d26c3139ffb7580
+# https://wiki.archlinux.org/title/PipeWire
+# pacman installs:
+pipewire # for screen sharing
+wireplumber # for screen sharing
+grim # for screen sharing
+slurp # for screen sharing
+# yay installs:
+xdg-desktop-portal-hyprland-git # for screen sharing
+# Add this line to your hyprland.conf file.
+exec-once=dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP
+# Do NOT install Grimblast screenshot tool! It will mess up screen sharing!
+# If still not working, try pacman installs:
+pipewire-audio # for screen sharing audio (?)
+pipewire-pulse # for screen sharing audio (?)
+pipewire-alsa # for screen sharing audio (?)
+# If still not working, try:
+cp -r /usr/share/pipewire ~/.config/pipewire # copy default pipewire configs (?)
 
 
 
@@ -125,17 +147,3 @@ yay 12.3.5-1
 yay-debug 12.3.5-1
 zsh 5.9-5
 
-evince # pdf/document viewer
-libreoffice-still # document/speadsheet editor
-fuse2 # dependency to run appimages
-sonic-visualiser # visualizing audio
-audacity # edit audio data
-pipewire # for screen sharing
-pipewire-audio # for screen sharing audio (?)
-pipewire-pulse # for screen sharing audio (?)
-pipewire-alsa # for screen sharing audio (?)
-wireplumber # for screen sharing
-grim # for screen sharing
-slurp # for screen sharing
-wl-clipboard # for copying neovim to clipboard
-lsof # check sockets open AND other stuff
