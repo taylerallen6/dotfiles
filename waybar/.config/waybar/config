@@ -6,7 +6,7 @@
 
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["clock"],
-    "modules-right": ["cpu", "memory", "disk", "temperature", "backlight", "pulseaudio", "network", "battery"],
+    "modules-right": ["cpu", "memory", "disk", "temperature", "backlight", "pulseaudio", "bluetooth", "network", "battery"],
 
     "hyprland/workspaces": {
         "on-click": "activate",
@@ -27,55 +27,49 @@
         "max-length": 30
     },
 
+    "bluetooth": {
+	// "controller": "controller1", // specify the alias of the controller if there are more than 1 on the system
+	"on-click": "alacritty --hold -e bluetui",
+	"format": " {status}",
+	"format-disabled": "", // an empty format will hide the module
+	"format-connected": " {num_connections}",
+	"tooltip-format": "{controller_alias}\t{controller_address}",
+	"tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
+	"tooltip-format-enumerate-connected": "{device_alias}\t{device_address}"
+    },
+
     "network": {
         "format-wifi" : "{icon} {signalStrength}%",
         "format-icons": ["󰤯","󰤟","󰤢","󰤥","󰤨"],
         "format-ethernet": "  ETH",
-        "format-disconnected" : "󰖪 disconnected",
-        "tooltip-format-wifi": "{ipaddr}/{cidr} {essid}\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
+        "format-disconnected" : "󰖪",
+        "tooltip-format-wifi": "{ipaddr}/{cidr}\n{essid}\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
         "tooltip-format-ethernet": "{ipaddr}/{cidr} {ifname}\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
         "tooltip-format-disconnected": "Disconnected",
         "interval": 5,
         "nospacing": 1,
         "on-click": "alacritty -e nmtui"
     },
-//    "network": {
-//        // "interface": "wlp2*", // (Optional) To force the use of this interface
-//        "format-wifi": "{essid} ({signalStrength}%) ",
-//        "format-ethernet": "{ipaddr}/{cidr} ",
-//        "tooltip-format": "{ifname} via {gwaddr} ",
-//        "format-linked": "{ifname} (No IP) ",
-//        "format-disconnected": "Disconnected ⚠",
-//        "format-alt": "{ifname}: {ipaddr}/{cidr}"
-//    },
-
-//    "network": {
-//        "format": "{ifname}",
-//        "format-wifi": "{essid} ({signalStrength}%) ",
-//        "format-ethernet": "ETHERNET",
-//        "format-disconnected": "", //An empty format will hide the module.
-//        "tooltip-format": "{ifname} via {gwaddr}",
-//        "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
-//        "tooltip-format-ethernet": "{ifname} ",
-//        "tooltip-format-disconnected": "Disconnected",
-//        "max-length": 50
-//    },
 
     "pulseaudio": {
-        "format": "{icon} {volume}%",
-        "format-bluetooth": "󰂰",
+        "format": "{icon}  {volume}%",
+        "format-bluetooth": "󰂰 {volume}%",
         "nospacing": 1,
-        "format-muted": "󰝟",
+        "format-muted": "{icon}  {volume}%",
         "format-icons": {
             "headphone": "",
-            "default": ["","", "", ""]
+            "default": ""
         },
         "on-click": "pavucontrol",
         "scroll-step": 2
     },
     "battery": {
         "format": "{icon}  {capacity}%",
-        "format-icons": ["", "", "", "", ""]
+        "format-icons": ["", "", "", "", ""],
+	"interval": 2,
+	"states": {
+		"warning": 20,
+	},
     },
     "clock": {
         "format-alt": "{:%a, %d %b %H:%M}"
@@ -83,7 +77,7 @@
     "backlight": {
         "device": "intel_backlight",
         "format": "{icon} {percent}%",
-        "format-icons": ["", "", ""],
+        "format-icons": [""],
         "scroll-step": 1
     },
 

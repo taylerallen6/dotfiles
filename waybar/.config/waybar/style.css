@@ -72,6 +72,7 @@ window#waybar.hidden {
 
 #backlight,
 #pulseaudio,
+#bluetooth,
 #network,
 #battery {
   margin: 8px 0px;
@@ -83,6 +84,18 @@ window#waybar.hidden {
   /* border-color: #545d68; */
   font-weight: 900;
   /* font-size: 14px; */
+}
+
+#pulseaudio.muted {
+  color: #ff0000;
+}
+
+#network.disconnected {
+  color: #ff0000;
+}
+
+#bluetooth.disabled {
+  color: #ff0000;
 }
 
 #backlight {
@@ -101,8 +114,7 @@ window#waybar.hidden {
 
 @keyframes blink {
   to {
-    background-color: #f38ba8;
-    color: #181825;
+    color: #b7c1c9;
   }
 }
 
@@ -112,7 +124,7 @@ window#waybar.hidden {
   color: #ff0048;
   animation-name: blink;
   animation-duration: 0.5s;
-  animation-timing-function: linear;
+  animation-timing-function: ease;
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }

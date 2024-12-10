@@ -11,7 +11,7 @@ https://github.com/alacritty/alacritty-theme
 ristretto #image viewer
 thunar # file explorer
 brightnessctl #control backlight
-light #also for backlight ???????????
+# light #also for backlight ???????????
 nwg-look # theming tool
 swaync # notification center ?
 swaybg # background
@@ -27,12 +27,13 @@ neofetch
 fastfetch
 htop
 unzip
-pavucontrol
-alsa-utils
+pavucontrol # audio controls gui
+alsa-utils # misc audio utils
 firefox
 waybar
 stow # sync dotfiles to their proper location.
 blender
+gimp
 rsync # for backing up files.
 vlc # video player
 evince # pdf/document viewer
@@ -42,11 +43,19 @@ sonic-visualiser # visualizing audio
 audacity # edit audio data
 wl-clipboard # for copying neovim to clipboard
 lsof # check sockets open AND o
+reflector # tool for updating pacman mirrorlist
+p7zip # for unzipping things (specifically orange pi os image)
+wev # get key events (wayland) (works better)
+bat # cleaner version of cat
+docker
+neovim
+flatpak
 
 ### yay installs
 gtklock #lock screen
-yay -S neovim-git #neovim nightly (has rust inlay hints)
+##yay -S neovim-git #neovim nightly (has rust inlay hints)
 gobuster #directory buster
+balena-etcher # os image flasher
 
 ### copy tuigreet to /etc/tuigreet
 sudo cp tuigreet_config.toml /etc/greetd/config.toml
@@ -73,7 +82,7 @@ rustup component add rust-std
 # pacman installs:
 pipewire # for screen sharing
 wireplumber # for screen sharing
-grim # for screen sharing
+grim # for screen sharing / screenshotting
 slurp # for screen sharing
 # yay installs:
 xdg-desktop-portal-hyprland-git # for screen sharing
@@ -87,6 +96,37 @@ pipewire-alsa # for screen sharing audio (?)
 # If still not working, try:
 cp -r /usr/share/pipewire ~/.config/pipewire # copy default pipewire configs (?)
 
+
+### PRINTERs
+# pacman installs:
+cups
+system-config-printer
+hplip
+# commands after installs:
+sudo systemctl start cups
+sudo systemctl enable cups
+sudo usermod -a -G lp {your-username}
+
+### BLUETOOTH
+# pacman
+bluez
+bluez-utils
+# start service
+sudo systemctl start bluetooth
+sudo systemctl enable bluetooth
+# yay install
+bluetui # tui for bluetooth (instead of using bluetoothctl)
+
+# ANDROID STUFF
+# pacman installs:
+android-tools
+android-udev
+
+### EWW
+# https://elkowar.github.io/eww/
+git clone https://github.com/elkowar/eww
+cd eww
+cargo build --release --no-default-features --features=wayland
 
 
 # NEW PACMAN LIST
@@ -146,4 +186,5 @@ xdg-utils 1.2.1-1
 yay 12.3.5-1
 yay-debug 12.3.5-1
 zsh 5.9-5
+
 

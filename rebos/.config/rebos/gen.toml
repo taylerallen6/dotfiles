@@ -1,0 +1,134 @@
+# --------------------- #
+#    Generation File    #
+# --------------------- #
+
+# Other generation files to import. (Example: intensive_apps -> ~/.config/rebos/imports/intensive_apps.toml)
+imports = [
+    # "intensive_apps",
+]
+
+# Packages to be installed via the native package manager.
+[managers.system]
+items = [
+    # "git",
+    "hyprland",
+
+    "htop",
+    "ristretto", #image viewer
+    "thunar", # file explorer
+    "brightnessctl", #control backlight
+    # "light", #also for backlight ??????????? APPARENTLY DOESNT EXIST..
+    "nwg-look", # theming tool
+    "swaync", # notification center ?
+    "swaybg", # background
+    "man-db", # man pages
+    "ttf-jetbrains-mono-nerd", # fonts
+    "ttf-firacode-nerd", # another font
+    "greetd-tuigreet", # login greeter
+    "swayidle", # for locking on sleep/idle
+    "ranger", # file explorer
+    "nmap", # network stuff
+    "tree", # show file tree
+    "neofetch",
+    "fastfetch",
+    "htop",
+    "unzip",
+    "pavucontrol", # audio controls gui
+    "alsa-utils", # misc audio utils
+    "firefox",
+    "waybar",
+    "stow", # sync dotfiles to their proper location.
+    "blender",
+    "gimp",
+    "rsync", # for backing up files.
+    "vlc", # video player
+    "evince", # pdf/document viewer
+    "libreoffice-still", # document/speadsheet editor
+    "fuse2", # dependency to run appimages
+    "sonic-visualiser", # visualizing audio
+    "audacity", # edit audio data
+    "wl-clipboard", # for copying neovim to clipboard
+    "lsof", # check sockets open AND o
+    "reflector", # tool for updating pacman mirrorlist
+    "p7zip", # for unzipping things (specifically orange pi os image)
+    "wev", # get key events (wayland) (works better)
+    "bat", # cleaner version of cat
+    "docker",
+    "neovim",
+    "flatpak",
+
+    # SCREEN SHARING
+    "pipewire",
+    "wireplumber",
+    "grim", # for screen sharing / screenshotting
+    "slurp",
+    # If still not working, try pacman installs:
+    "pipewire-audio",
+    "pipewire-pulse",
+    "pipewire-alsa",
+
+    # PRINTERS
+    "cups",
+    "system-config-printer",
+    "hplip",
+
+    # BLUETOOTH
+    "bluez",
+    "bluez-utils",
+
+    # ANDROID STUFF
+    "android-tools",
+    "android-udev",
+
+    # EMBEDDED RUST
+    # "systemd-libs"
+    # "gcc",
+    # "git",
+    # "make",
+    # "flex",
+    # "bison",
+    # "gperf",
+    # "python",
+    # "cmake",
+    # "ninja",
+    # "ccache",
+    # "dfu-util",
+    # "libusb",
+
+    # USB STUFF
+    "usbutils",
+    "udisks2"
+]
+
+[managers.yay]
+items = [
+    "gtklock", #lock screen
+    "gobuster", #directory buster
+    "balena-etcher", # os image flasher
+
+    # SCREEN SHARING
+    # Do NOT install Grimblast screenshot tool! It will mess up screen sharing!
+    "xdg-desktop-portal-hyprland-git",
+
+    # BLUETOOTH
+    "bluetui", # tui for bluetooth (instead of using bluetoothctl)
+]
+
+# Packages to be installed via Flatpak.
+[managers.flatpak]
+items = [
+    # "com.github.tchx84.Flatseal",
+]
+
+# Packages to be installed via Cargo.
+[managers.cargo]
+items = [
+    # "bacon",
+
+    # EMBEDDED RUST
+    "cargo-generate",
+    "ldproxy",
+    "espup",
+    "espflash",
+    "cargo-espflash", # Optional.
+]
