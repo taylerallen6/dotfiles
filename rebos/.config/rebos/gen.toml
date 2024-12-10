@@ -12,7 +12,13 @@ imports = [
 items = [
     # "git",
     "hyprland",
+    "alacritty",
 
+    # ADD USER DIRECTORIES
+    "xdg-user-dirs",
+    "xdg-utils",
+
+    "wofi",
     "htop",
     "ristretto", #image viewer
     "thunar", # file explorer
