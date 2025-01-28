@@ -62,6 +62,8 @@ items = [
     "docker",
     "neovim",
     "flatpak",
+    "curl",
+    "wget",
 
     # SCREEN SHARING
     "pipewire",

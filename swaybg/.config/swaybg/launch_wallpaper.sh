@@ -1,5 +1,2 @@
-#swaybg --image ~/dotfiles/misc_files/wallpapers/nord_mountains.png
-
-swaybg --image ~/dotfiles/misc_files/wallpapers/11356491.png
-
+swaybg --image ~/dotfiles/misc_files/wallpapers/ign-0011.png
 
