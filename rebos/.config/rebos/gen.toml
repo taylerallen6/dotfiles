@@ -85,8 +85,8 @@ items = [
     "bluez-utils",
 
     # ANDROID STUFF
-    "android-tools",
-    "android-udev",
+    # "android-tools",
+    # "android-udev",
 
     # EMBEDDED RUST
     # "systemd-libs"
