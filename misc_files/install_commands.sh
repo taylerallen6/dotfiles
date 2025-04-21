@@ -9,6 +9,7 @@
 ### USEFUL FIRST INSTALLS
 sudo pacman -S git
 sudo pacman -S curl
+sudo pacman -S stow
 sudo pacman -S xdg-user-dirs
 
 ### ADD USER DIRECTORIES
@@ -67,4 +68,17 @@ sudo usermod -a -G lp {your-username}
 git clone https://github.com/elkowar/eww
 cd eww
 cargo build --release --no-default-features --features=wayland
+
+
+# Stow dotfiles
+rm -r ~/.bashrc
+stow ~/dotfiles/dot_bashrc
+stow ~/dotfiles/helix
+stow ~/dotfiles/rebos
+stow ~/dotfiles/alacritty
+stow ~/dotfiles/hypr
+stow ~/dotfiles/waybar
+stow ~/dotfiles/swaybg
+stow ~/dotfiles/dot_themes
+stow ~/dotfiles/dot_icons
 
