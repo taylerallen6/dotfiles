@@ -166,5 +166,13 @@ arch-chroot /mnt grub-mkconfig -o /boot/grub/grub.cfg
 echo "STEP: Enable network manager."
 arch-chroot /mnt systemctl enable NetworkManager
 
+### USEFUL FIRST INSTALLS
+echo "STEP: Install xdg-user-dirs."
+arch-chroot /mnt sudo pacman -S xdg-user-dirs
+
+### ADD USER DIRECTORIES
+echo "STEP: Create user directories."
+arch-chroot /mnt xdg-user-dirs-update
+
 echo "STEP: DONE: Please reboot and remove usb if successful."
 echo

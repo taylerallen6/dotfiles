@@ -2,7 +2,7 @@ theme = "tayler_tokyonight"
 
 [editor]
 color-modes = true
-line-number = "relative"
+line-number = "absolute"
 # bufferline = "always"
 cursorline = true
 completion-replace = true

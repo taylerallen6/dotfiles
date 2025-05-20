@@ -1,0 +1,242 @@
+https://github.com/elkowar/eww?tab=readme-ov-file elkowar/eww: ElKowars wacky widgets
+https://github.com/raexera/tokyo/blob/main/config/eww/dashboard/src/yuck/_widgets.yuck tokyo/config/eww/dashboard/src/yuck/_widgets.yuck at main · raexera/tokyo
+https://github.com/adi1090x/widgets/blob/main/previews/arin.png widgets/previews/arin.png at main · adi1090x/widgets
+https://elkowar.github.io/eww/configuration.html Configuration - eww documentation
+https://shaunlebron.github.io/parinfer/ Parinfer - simpler Lisp editing
+https://dharmx.is-a.dev/eww-powermenu/ EWW Powermenu - dead airspace
+https://github.com/elkowar/yuck.vim elkowar/yuck.vim
+https://dev.to/slydragonn/ultimate-neovim-setup-guide-lazynvim-plugin-manager-23b7 Ultimate Neovim Setup Guide: lazy.nvim Plugin Manager - DEV Community
+https://docs.rs/wgpu/latest/wgpu/struct.Adapter.html Adapter in wgpu - Rust
+https://www.youtube.com/watch?v=i6WMfY-XTZE Rust wgpu (1): Overview - YouTube
+https://sotrh.github.io/learn-wgpu/beginner/tutorial3-pipeline/#how-do-we-use-the-shaders The Pipeline | Learn Wgpu
+https://github.com/sotrh/learn-wgpu/blob/master/code/beginner/tutorial3-pipeline/Cargo.toml learn-wgpu/code/beginner/tutorial3-pipeline/Cargo.toml at master · sotrh/learn-wgpu
+https://github.com/gfx-rs/wgpu/blob/trunk/examples/src/hello_compute/mod.rs wgpu/examples/src/hello_compute/mod.rs at trunk · gfx-rs/wgpu
+https://docs.rs/wgpu/latest/wgpu/struct.ImageDataLayout.html ImageDataLayout in wgpu - Rust
+https://duckduckgo.com/?q=wgsl+Operation+GreaterEqual+can%27t+work+with+%5B5%5D+and+%5B6%5D&t=ffab&ia=web wgsl Operation GreaterEqual can't work with [5] and [6] at DuckDuckGo
+https://wgpu.rs/ wgpu: portable graphics library for Rust
+https://rerun.io/ Rerun — Rerun
+https://docs.rs/image/latest/image/index.html image - Rust
+https://www.youtube.com/watch?v=uSYd8HjY6GE (385) Rust Tutorial - Image Processing Ascii Art - YouTube
+https://stackoverflow.com/questions/38886081/how-to-save-a-png-image-in-rust How to save a PNG image in Rust? - Stack Overflow
+https://www.youtube.com/watch?v=NDIU1GSBrVI (351) The magic of Rust's type system - YouTube
+https://docs.isf.video/primer_chapter_6.html#writing-a-generalized-convolution-filter-in-isf Convolution Filters | ISF Documentation
+https://en.wikipedia.org/wiki/Kernel_(image_processing) Kernel (image processing) - Wikipedia
+https://setosa.io/ev/image-kernels/ Image Kernels explained visually
+https://stackoverflow.com/questions/17815687/image-processing-implementing-sobel-filter edge detection - Image Processing - Implementing Sobel Filter - Stack Overflow
+https://jameshfisher.com/2020/08/31/edge-detection-with-sobel-filters/ Edge detection with Sobel filters
+https://blog.redwarp.app/image-filters/ Computing image filters with wgpu-rs
+https://github.com/redwarp/blog/blob/main/code-sample/image-filters/src/shaders/grayscale.wgsl blog/code-sample/image-filters/src/shaders/grayscale.wgsl at main · redwarp/blog
+https://webgpufundamentals.org/webgpu/lessons/webgpu-compute-shaders.html WebGPU Compute Shader Basics
+https://docs.rs/bytemuck/latest/bytemuck/trait.Pod.html Pod in bytemuck - Rust
+https://webgpufundamentals.org/webgpu/lessons/webgpu-uniforms.html WebGPU Uniforms
+https://wgpu.rs/doc/wgpu/enum.BufferBindingType.html#variant.Uniform BufferBindingType in wgpu - Rust
+https://github.com/gfx-rs/wgpu/blob/trunk/examples/src/uniform_values/shader.wgsl wgpu/examples/src/uniform_values/shader.wgsl at trunk · gfx-rs/wgpu
+https://docs.rs/wgpu/latest/wgpu/util/struct.BufferInitDescriptor.html BufferInitDescriptor in wgpu::util - Rust
+https://docs.rs/encase/latest/encase/ encase - Rust
+https://docs.rs/bytemuck/latest/bytemuck/fn.cast_slice.html# cast_slice in bytemuck - Rust
+https://docs.rs/bytemuck/latest/bytemuck/derive.Pod.html Pod in bytemuck - Rust
+https://doc.rust-lang.org/std/mem/fn.size_of.html size_of in std::mem - Rust
+https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly firefox Keyboard shortcuts
+https://www.scaler.com/topics/backup-in-linux/ Linux Backup and Restore Commands Cheat Sheet - Scaler Topics
+https://os.phil-opp.com/minimal-rust-kernel/ A Minimal Rust Kernel | Writing an OS in Rust
+https://fosspost.org/use-qemu-test-operating-systems-distributions Use QEMU To Run Operating Systems Virtually - FOSS Post
+https://littleosbook.github.io/ The little book about OS development
+https://www.youtube.com/playlist?list=PLib6-zlkjfXkdCjQgrZhmfJOWBk_C2FTY (68) Rust OS - YouTube
+https://unix.stackexchange.com/questions/530575/how-to-dedicate-a-cpu-to-a-process How to dedicate a CPU to a process - Unix & Linux Stack Exchange
+https://stackoverflow.com/questions/13583146/whole-one-core-dedicated-to-single-process c - Whole one core dedicated to single process - Stack Overflow
+https://www.youtube.com/watch?v=Hm_wEUCdhtk (193) Linux command-line: Setting CPU affinity to a process on Linux - YouTube
+https://www.youtube.com/watch?v=r0deWOoIrvY (193) RH442 Red Hat Performance Tuning: Configuring CPU Affinity and Isolation - YouTube
+https://www.youtube.com/watch?v=IGXM-T46Bn4 (193) RH442 Red Hat Performance Tuning: Guided Exercise: Configuring CPU Affinity and Isolation - YouTube
+https://access.redhat.com/sites/default/files/attachments/irq_affinity_tech_brief.pdf irq_affinity_tech_brief.pdf
+https://unix.stackexchange.com/questions/326579/how-to-ensure-exclusive-cpu-availability-for-a-running-process debian - How to ensure exclusive CPU availability for a running process? - Unix & Linux Stack Exchange
+https://stackoverflow.com/questions/11111852/how-to-shield-a-cpu-from-the-linux-scheduler-prevent-it-scheduling-threads-onto#13076880 performance - how to shield a cpu from the linux scheduler (prevent it scheduling threads onto that cpu)? - Stack Overflow
+https://github.com/SUSE/cpuset SUSE/cpuset: Originally exported from code.google.com/p/cpuset, then maintained at github.com/lpechacek/cpuset, then migrated the repo here SUSE/cpuset
+https://www.shortform.com/best-books/genre/best-political-theory-books-of-all-time 100 Best Political Theory Books of All Time (Updated for 2021)
+https://textandtext.com/text/186/10-Essential-Books-to-Understand-Political-Theory 10 Essential Books to Understand Political Theory • textandtext
+https://www.youtube.com/watch?v=XlnDtcEhNsg (302) Step-by-Step Guide (2025): Install Nvidia CUDA on Linux Like a Pro! - YouTube
+https://www.youtube.com/watch?v=mOIzYxVD4d0 (302) Step-by-Step Guide (2025): Install NVIDIA Drivers on Linux Like a Pro! - YouTube
+https://forums.developer.nvidia.com/t/cuda-error-the-provided-ptx-was-compiled-with-an-unsupported-toolchain/292160/5 CUDA error : the provided PTX was compiled with an unsupported toolchain - CUDA / CUDA Setup and Installation - NVIDIA Developer Forums
+https://www.nvidia.com/en-us/drivers/ Download The Official NVIDIA Drivers | NVIDIA
+https://www.nvidia.com/en-us/drivers/details/241089/ Linux x64 (AMD64/EM64T) Display Driver 570.124.04 | Linux 64-bit | NVIDIA
+https://www.youtube.com/watch?v=s42yROAajzw&list=PL0U7YUX2VnBFbwTi96wUB1nZzPVN3HzgS&index=11 (412) Rust on ESP32: Running on no_std - YouTube
+https://docs.rust-embedded.org/book/peripherals/a-first-attempt.html A first attempt in Rust - The Embedded Rust Book
+https://docs.esp-rs.org/book/writing-your-own-application/generate-project/index.html Generating Projects from Templates - The Rust on ESP Book
+https://github.com/esp-rs/esp-template?tab=readme-ov-file esp-rs/esp-template: A minimal esp-hal application template for use with cargo-generate
+https://github.com/esp-rs/esp-idf-template?tab=readme-ov-file#install-rust--clang-toolchains-for-espressif-socs-with-espup esp-rs/esp-idf-template: A "Hello, world!" template of a Rust binary crate for the ESP-IDF framework.
+https://docs.esp-rs.org/no_std-training/01_intro.html Introduction - Embedded Rust (no_std) on Espressif
+https://docs.esp-rs.org/book/overview/using-the-core-library.html Using the Core Library (no_std) - The Rust on ESP Book
+https://github.com/esp-rs/esp-hal/blob/main/examples/src/bin/blinky.rs esp-hal/examples/src/bin/blinky.rs at main · esp-rs/esp-hal
+https://docs.esp-rs.org/book/installation/riscv-and-xtensa.html RISC-V and Xtensa targets - The Rust on ESP Book
+https://wiki.seeedstudio.com/xiao_pin_multiplexing_esp33c6/ Pin Multiplexing With Seeed Studio XIAO ESP32C6 | Seeed Studio Wiki
+https://wiki.seeedstudio.com/xiao_esp32c6_getting_started/ Getting Started with Seeed Studio XIAO ESP32C6 | Seeed Studio Wiki
+https://github.com/embassy-rs/embassy embassy-rs/embassy: Modern embedded framework, using Rust and async.
+https://github.com/Rust-GPU/Rust-CUDA/blob/main/guide/src/guide/getting_started.md Rust-CUDA/guide/src/guide/getting_started.md at main · Rust-GPU/Rust-CUDA
+https://github.com/Rust-GPU/Rust-CUDA/blob/main/crates/cust/resources/add.cu Rust-CUDA/crates/cust/resources/add.cu at main · Rust-GPU/Rust-CUDA
+https://www.youtube.com/watch?v=ogN_mBkWu7o (425) p2p chat, in rust, from scratch - YouTube
+https://github.com/n0-computer/iroh n0-computer/iroh: peer-2-peer that just works
+https://www.iroh.computer/docs/examples/gossip-chat docs, guides, and examples
+https://github.com/n0-computer/iroh-gossip n0-computer/iroh-gossip
+https://github.com/smol-rs/futures-lite smol-rs/futures-lite: Futures, streams, and async I/O combinators.
+https://github.com/drkennetz/cuda_examples/blob/main/KernelAndLibExamples/vector_add/vector_add.cu cuda_examples/KernelAndLibExamples/vector_add/vector_add.cu at main · drkennetz/cuda_examples
+https://github.com/Lyn-liyuan/ndarray-cuda-matmul/blob/main/src/matmul.cu ndarray-cuda-matmul/src/matmul.cu at main · Lyn-liyuan/ndarray-cuda-matmul
+https://stackoverflow.com/questions/5029920/how-to-use-2d-arrays-in-cuda How to use 2D Arrays in CUDA? - Stack Overflow
+https://www.youtube.com/watch?v=W30wzKVwCHo&t=54s (144) We finally have a simple solution for backing up files on Linux - YouTube
+https://10.0.0.30/ui/sessions/signin TrueNAS - 10.0.0.30
+https://www.truenas.com/docs/core/13.0/coretutorials/services/configuringsftp/ Configuring SFTP | TrueNAS Documentation Hub
+https://www.truenas.com/docs/core/13.0/uireference/services/servicesssh/ SSH Screen | TrueNAS Documentation Hub
+https://www.youtube.com/results?search_query=truenas+scale+ssh (173) truenas scale ssh - YouTube
+https://www.reallinuxuser.com/how-to-easily-create-backups-in-linux-with-pika-backup/ How to easily create backups in Linux with Pika Backup - Real Linux User
+https://www.truenas.com/docs/core/13.0/coretutorials/storage/pools/datasets/ Creating Datasets | TrueNAS Documentation Hub
+https://www.truenas.com/docs/core/13.0/coretutorials/services/configuringftp/ Configuring FTP | TrueNAS Documentation Hub
+https://www.youtube.com/results?search_query=debian+raid (173) debian raid - YouTube
+https://alexandre.deverteuil.net/post/borg-backup-server-on-truenas-scale/ Borg backup server on TrueNAS SCALE | Alexandre de Verteuil
+https://duckduckgo.com/?q=debian+set+up+raid+1&t=ffab&ia=web debian set up raid 1 at DuckDuckGo
+file:///home/user1/Downloads/CIC+_How%20to%20set%20up%20a%20new%20pay%20account_forgotUserID_PasswordSupport-1.pdf CIC+_How to set up a new pay account_forgotUserID_PasswordSupport-1.pdf
+https://prod.beeline.com/hilton/welcome/ Log in to Beeline
+https://www.paperlessemployee.com/allegis/PE Login Page - PaperlessEmployee.com
+https://www.ktbsonline.com/hub/YWxsZWdpc21hcmtldHBsYWNlLmNvbQ%3D%3D Allegis Marketplace
+https://huggingface.co/datasets/HuggingFaceTB/everyday-conversations-llama3.1-2k HuggingFaceTB/everyday-conversations-llama3.1-2k · Datasets at Hugging Face
+https://huggingface.co/meta-llama/Llama-3.1-70B-Instruct meta-llama/Llama-3.1-70B-Instruct · Hugging Face
+https://github.com/Zjh-819/LLMDataHub Zjh-819/LLMDataHub: A quick guide (especially) for trending instruction finetuning datasets
+https://huggingface.co/datasets/hoskinson-center/proof-pile hoskinson-center/proof-pile · Datasets at Hugging Face
+https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T togethercomputer/RedPajama-Data-1T · Datasets at Hugging Face
+https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T-Sample togethercomputer/RedPajama-Data-1T-Sample · Datasets at Hugging Face
+https://huggingface.co/datasets/cerebras/SlimPajama-627B cerebras/SlimPajama-627B · Datasets at Hugging Face
+https://github.com/togethercomputer/redpajama-data togethercomputer/RedPajama-Data: The RedPajama-Data repository contains code for preparing large datasets for training large language models.
+https://github.com/huggingface/datasets huggingface/datasets: 🤗 The largest hub of ready-to-use datasets for ML models with fast, easy-to-use and efficient data manipulation tools
+https://github.com/nentropy/hugging-datasets-rs nentropy/hugging-datasets-rs: A rust port of hugging face data sets, including a dataloader for use with the linfa library
+https://docs.pola.rs/user-guide/expressions/basic-operations/#comparisons Basic operations - Polars user guide
+https://huggingface.co/datasets/allenai/c4 allenai/c4 · Datasets at Hugging Face
+https://huggingface.co/datasets/storytracer/US-PD-Books storytracer/US-PD-Books · Datasets at Hugging Face
+https://huggingface.co/docs/tokenizers/quicktour?code=rust Quicktour
+https://huggingface.co/docs/tokenizers/pipeline?code=rust The tokenization pipeline
+https://www.geeksforgeeks.org/byte-pair-encoding-bpe-in-nlp/ Byte-Pair Encoding (BPE) in NLP | GeeksforGeeks
+https://superuser.com/questions/1717850/how-to-properly-expand-boot-fat-partition-for-arch-linux partitioning - How to properly expand /boot FAT partition (for Arch Linux) - Super User
+https://bbs.archlinux.org/viewtopic.php?id=282952 [SOLVED] How to decrease partition and increase size of /boot / Newbie Corner / Arch Linux Forums
+https://www.youtube.com/watch?v=kXqk91R4RwU&t=1530s (502) Arch Linux: An 𝔼𝕟𝕔𝕣𝕪𝕡𝕥𝕖𝕕 Guide - YouTube
+https://comfy.guide/client/luks/ LUKS Encryption
+https://wiki.archlinux.org/title/Installation_guide Installation guide - ArchWiki
+https://www.lorenzobettini.it/2023/05/my-script-for-automated-arch-linux-installation/ My script for automated Arch Linux installation | Lorenzo Bettini
+https://github.com/helmuthdu/aui/blob/master/fifo aui/fifo at master · helmuthdu/aui
+https://disconnected.systems/blog/archlinux-installer/#the-complete-installer-script Automating Arch Linux Part 3: Creating a Custom Arch Linux Installer | Disconnected Systems
+https://github.com/mdaffin/arch-pkgs/blob/master/installer/install-arch arch-pkgs/installer/install-arch at master · mdaffin/arch-pkgs
+https://linuxize.com/post/fdisk-command-in-linux/ Fdisk Command in Linux (Create Disk Partitions) | Linuxize
+https://www.youtube.com/watch?v=nttLR55lFAY (500) LCL 14 - partitioning and formatting with parted and mkfs - Linux Command Line tutorial forensics - YouTube
+https://www.golinuxcloud.com/parted-command-in-linux/ 10+ parted command examples in Linux [Cheat Sheet] | GoLinuxCloud
+https://unix.stackexchange.com/questions/715461/bash-how-to-automate-creation-of-disk-partitions-in-linux shell script - bash + how to automate creation of disk partitions in Linux - Unix & Linux Stack Exchange
+https://www.cyberciti.biz/faq/how-to-use-sed-to-find-and-replace-text-in-files-in-linux-unix-shell/ How to use sed to find and replace text in files in Linux / Unix shell - nixCraft
+https://regex101.com/ regex101: build, test, and debug regex
+https://gitlab.com/Oglo12/rebos/-/wikis/generations Generations · Wiki · Jackson Novak / Rebos · GitLab
+elkowar/eww: ElKowars wacky widgets https://github.com/elkowar/eww?tab=readme-ov-file
+tokyo/config/eww/dashboard/src/yuck/_widgets.yuck at main · raexera/tokyo https://github.com/raexera/tokyo/blob/main/config/eww/dashboard/src/yuck/_widgets.yuck
+widgets/previews/arin.png at main · adi1090x/widgets https://github.com/adi1090x/widgets/blob/main/previews/arin.png
+Configuration - eww documentation https://elkowar.github.io/eww/configuration.html
+Parinfer - simpler Lisp editing https://shaunlebron.github.io/parinfer/
+EWW Powermenu - dead airspace https://dharmx.is-a.dev/eww-powermenu/
+elkowar/yuck.vim https://github.com/elkowar/yuck.vim
+Ultimate Neovim Setup Guide: lazy.nvim Plugin Manager - DEV Community https://dev.to/slydragonn/ultimate-neovim-setup-guide-lazynvim-plugin-manager-23b7
+Adapter in wgpu - Rust https://docs.rs/wgpu/latest/wgpu/struct.Adapter.html
+Rust wgpu (1): Overview - YouTube https://www.youtube.com/watch?v=i6WMfY-XTZE
+The tokenization pipeline https://huggingface.co/docs/tokenizers/pipeline?code=rust
+learn-wgpu/code/beginner/tutorial3-pipeline/Cargo.toml at master · sotrh/learn-wgpu https://github.com/sotrh/learn-wgpu/blob/master/code/beginner/tutorial3-pipeline/Cargo.toml
+wgpu/examples/src/hello_compute/mod.rs at trunk · gfx-rs/wgpu https://github.com/gfx-rs/wgpu/blob/trunk/examples/src/hello_compute/mod.rs
+ImageDataLayout in wgpu - Rust https://docs.rs/wgpu/latest/wgpu/struct.ImageDataLayout.html
+wgsl Operation GreaterEqual can't work with [5] and [6] at DuckDuckGo https://duckduckgo.com/?q=wgsl+Operation+GreaterEqual+can%27t+work+with+%5B5%5D+and+%5B6%5D&t=ffab&ia=web
+wgpu: portable graphics library for Rust https://wgpu.rs/
+Rerun — Rerun https://rerun.io/
+image - Rust https://docs.rs/image/latest/image/index.html
+(385) Rust Tutorial - Image Processing Ascii Art - YouTube https://www.youtube.com/watch?v=uSYd8HjY6GE
+How to use sed to find and replace text in files in Linux / Unix shell - nixCraft https://www.cyberciti.biz/faq/how-to-use-sed-to-find-and-replace-text-in-files-in-linux-unix-shell/
+(351) The magic of Rust's type system - YouTube https://www.youtube.com/watch?v=NDIU1GSBrVI
+Convolution Filters | ISF Documentation https://docs.isf.video/primer_chapter_6.html#writing-a-generalized-convolution-filter-in-isf
+Kernel (image processing) - Wikipedia https://en.wikipedia.org/wiki/Kernel_(image_processing)
+Image Kernels explained visually https://setosa.io/ev/image-kernels/
+edge detection - Image Processing - Implementing Sobel Filter - Stack Overflow https://stackoverflow.com/questions/17815687/image-processing-implementing-sobel-filter
+Edge detection with Sobel filters https://jameshfisher.com/2020/08/31/edge-detection-with-sobel-filters/
+Computing image filters with wgpu-rs https://blog.redwarp.app/image-filters/
+blog/code-sample/image-filters/src/shaders/grayscale.wgsl at main · redwarp/blog https://github.com/redwarp/blog/blob/main/code-sample/image-filters/src/shaders/grayscale.wgsl
+WebGPU Uniforms https://webgpufundamentals.org/webgpu/lessons/webgpu-uniforms.html
+Pod in bytemuck - Rust https://docs.rs/bytemuck/latest/bytemuck/derive.Pod.html
+BufferBindingType in wgpu - Rust https://wgpu.rs/doc/wgpu/enum.BufferBindingType.html#variant.Uniform
+wgpu/examples/src/uniform_values/shader.wgsl at trunk · gfx-rs/wgpu https://github.com/gfx-rs/wgpu/blob/trunk/examples/src/uniform_values/shader.wgsl
+BufferInitDescriptor in wgpu::util - Rust https://docs.rs/wgpu/latest/wgpu/util/struct.BufferInitDescriptor.html
+encase - Rust https://docs.rs/encase/latest/encase/
+cast_slice in bytemuck - Rust https://docs.rs/bytemuck/latest/bytemuck/fn.cast_slice.html#
+size_of in std::mem - Rust https://doc.rust-lang.org/std/mem/fn.size_of.html
+firefox Keyboard shortcuts https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly
+Linux x64 (AMD64/EM64T) Display Driver 570.124.04 | Linux 64-bit | NVIDIA https://www.nvidia.com/en-us/drivers/details/241089/
+A first attempt in Rust - The Embedded Rust Book https://docs.rust-embedded.org/book/peripherals/a-first-attempt.html
+Use QEMU To Run Operating Systems Virtually - FOSS Post https://fosspost.org/use-qemu-test-operating-systems-distributions
+(68) Rust OS - YouTube https://www.youtube.com/playlist?list=PLib6-zlkjfXkdCjQgrZhmfJOWBk_C2FTY
+c - Whole one core dedicated to single process - Stack Overflow https://stackoverflow.com/questions/13583146/whole-one-core-dedicated-to-single-process
+(193) RH442 Red Hat Performance Tuning: Guided Exercise: Configuring CPU Affinity and Isolation - YouTube https://www.youtube.com/watch?v=IGXM-T46Bn4
+irq_affinity_tech_brief.pdf https://access.redhat.com/sites/default/files/attachments/irq_affinity_tech_brief.pdf
+debian set up raid 1 at DuckDuckGo https://duckduckgo.com/?q=debian+set+up+raid+1&t=ffab&ia=web
+performance - how to shield a cpu from the linux scheduler (prevent it scheduling threads onto that cpu)? - Stack Overflow https://stackoverflow.com/questions/11111852/how-to-shield-a-cpu-from-the-linux-scheduler-prevent-it-scheduling-threads-onto#13076880
+SUSE/cpuset: Originally exported from code.google.com/p/cpuset, then maintained at github.com/lpechacek/cpuset, then migrated the repo here SUSE/cpuset https://github.com/SUSE/cpuset
+100 Best Political Theory Books of All Time (Updated for 2021) https://www.shortform.com/best-books/genre/best-political-theory-books-of-all-time
+10 Essential Books to Understand Political Theory • textandtext https://textandtext.com/text/186/10-Essential-Books-to-Understand-Political-Theory
+(302) Step-by-Step Guide (2025): Install NVIDIA Drivers on Linux Like a Pro! - YouTube https://www.youtube.com/watch?v=mOIzYxVD4d0
+CUDA error : the provided PTX was compiled with an unsupported toolchain - CUDA / CUDA Setup and Installation - NVIDIA Developer Forums https://forums.developer.nvidia.com/t/cuda-error-the-provided-ptx-was-compiled-with-an-unsupported-toolchain/292160/5
+Download The Official NVIDIA Drivers | NVIDIA https://www.nvidia.com/en-us/drivers/
+(412) Rust on ESP32: Running on no_std - YouTube https://www.youtube.com/watch?v=s42yROAajzw&list=PL0U7YUX2VnBFbwTi96wUB1nZzPVN3HzgS&index=11
+Generating Projects from Templates - The Rust on ESP Book https://docs.esp-rs.org/book/writing-your-own-application/generate-project/index.html
+esp-rs/esp-template: A minimal esp-hal application template for use with cargo-generate https://github.com/esp-rs/esp-template?tab=readme-ov-file
+esp-rs/esp-idf-template: A "Hello, world!" template of a Rust binary crate for the ESP-IDF framework. https://github.com/esp-rs/esp-idf-template?tab=readme-ov-file#install-rust--clang-toolchains-for-espressif-socs-with-espup
+Introduction - Embedded Rust (no_std) on Espressif https://docs.esp-rs.org/no_std-training/01_intro.html
+Using the Core Library (no_std) - The Rust on ESP Book https://docs.esp-rs.org/book/overview/using-the-core-library.html
+esp-hal/examples/src/bin/blinky.rs at main · esp-rs/esp-hal https://github.com/esp-rs/esp-hal/blob/main/examples/src/bin/blinky.rs
+RISC-V and Xtensa targets - The Rust on ESP Book https://docs.esp-rs.org/book/installation/riscv-and-xtensa.html
+Pin Multiplexing With Seeed Studio XIAO ESP32C6 | Seeed Studio Wiki https://wiki.seeedstudio.com/xiao_pin_multiplexing_esp33c6/
+Getting Started with Seeed Studio XIAO ESP32C6 | Seeed Studio Wiki https://wiki.seeedstudio.com/xiao_esp32c6_getting_started/
+embassy-rs/embassy: Modern embedded framework, using Rust and async. https://github.com/embassy-rs/embassy
+Rust-CUDA/guide/src/guide/getting_started.md at main · Rust-GPU/Rust-CUDA https://github.com/Rust-GPU/Rust-CUDA/blob/main/guide/src/guide/getting_started.md
+Rust-CUDA/crates/cust/resources/add.cu at main · Rust-GPU/Rust-CUDA https://github.com/Rust-GPU/Rust-CUDA/blob/main/crates/cust/resources/add.cu
+(425) p2p chat, in rust, from scratch - YouTube https://www.youtube.com/watch?v=ogN_mBkWu7o
+n0-computer/iroh: peer-2-peer that just works https://github.com/n0-computer/iroh
+docs, guides, and examples https://www.iroh.computer/docs/examples/gossip-chat
+n0-computer/iroh-gossip https://github.com/n0-computer/iroh-gossip
+smol-rs/futures-lite: Futures, streams, and async I/O combinators. https://github.com/smol-rs/futures-lite
+cuda_examples/KernelAndLibExamples/vector_add/vector_add.cu at main · drkennetz/cuda_examples https://github.com/drkennetz/cuda_examples/blob/main/KernelAndLibExamples/vector_add/vector_add.cu
+ndarray-cuda-matmul/src/matmul.cu at main · Lyn-liyuan/ndarray-cuda-matmul https://github.com/Lyn-liyuan/ndarray-cuda-matmul/blob/main/src/matmul.cu
+(144) We finally have a simple solution for backing up files on Linux - YouTube https://www.youtube.com/watch?v=W30wzKVwCHo&t=54s
+TrueNAS - 10.0.0.30 https://10.0.0.30/ui/sessions/signin
+Configuring FTP | TrueNAS Documentation Hub https://www.truenas.com/docs/core/13.0/coretutorials/services/configuringftp/
+SSH Screen | TrueNAS Documentation Hub https://www.truenas.com/docs/core/13.0/uireference/services/servicesssh/
+(173) debian raid - YouTube https://www.youtube.com/results?search_query=debian+raid
+Creating Datasets | TrueNAS Documentation Hub https://www.truenas.com/docs/core/13.0/coretutorials/storage/pools/datasets/
+Borg backup server on TrueNAS SCALE | Alexandre de Verteuil https://alexandre.deverteuil.net/post/borg-backup-server-on-truenas-scale/
+CIC+_How to set up a new pay account_forgotUserID_PasswordSupport-1.pdf file:///home/user1/Downloads/CIC+_How%20to%20set%20up%20a%20new%20pay%20account_forgotUserID_PasswordSupport-1.pdf
+Log in to Beeline https://prod.beeline.com/hilton/welcome/
+Login Page - PaperlessEmployee.com https://www.paperlessemployee.com/allegis/PE
+Allegis Marketplace https://www.ktbsonline.com/hub/YWxsZWdpc21hcmtldHBsYWNlLmNvbQ%3D%3D
+HuggingFaceTB/everyday-conversations-llama3.1-2k · Datasets at Hugging Face https://huggingface.co/datasets/HuggingFaceTB/everyday-conversations-llama3.1-2k
+meta-llama/Llama-3.1-70B-Instruct · Hugging Face https://huggingface.co/meta-llama/Llama-3.1-70B-Instruct
+Zjh-819/LLMDataHub: A quick guide (especially) for trending instruction finetuning datasets https://github.com/Zjh-819/LLMDataHub
+hoskinson-center/proof-pile · Datasets at Hugging Face https://huggingface.co/datasets/hoskinson-center/proof-pile
+togethercomputer/RedPajama-Data-1T · Datasets at Hugging Face https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T
+togethercomputer/RedPajama-Data-1T-Sample · Datasets at Hugging Face https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T-Sample
+cerebras/SlimPajama-627B · Datasets at Hugging Face https://huggingface.co/datasets/cerebras/SlimPajama-627B
+togethercomputer/RedPajama-Data: The RedPajama-Data repository contains code for preparing large datasets for training large language models. https://github.com/togethercomputer/redpajama-data
+huggingface/datasets: 🤗 The largest hub of ready-to-use datasets for ML models with fast, easy-to-use and efficient data manipulation tools https://github.com/huggingface/datasets
+nentropy/hugging-datasets-rs: A rust port of hugging face data sets, including a dataloader for use with the linfa library https://github.com/nentropy/hugging-datasets-rs
+Basic operations - Polars user guide https://docs.pola.rs/user-guide/expressions/basic-operations/#comparisons
+allenai/c4 · Datasets at Hugging Face https://huggingface.co/datasets/allenai/c4
+storytracer/US-PD-Books · Datasets at Hugging Face https://huggingface.co/datasets/storytracer/US-PD-Books
+Quicktour https://huggingface.co/docs/tokenizers/quicktour?code=rust
+Byte-Pair Encoding (BPE) in NLP | GeeksforGeeks https://www.geeksforgeeks.org/byte-pair-encoding-bpe-in-nlp/
+partitioning - How to properly expand /boot FAT partition (for Arch Linux) - Super User https://superuser.com/questions/1717850/how-to-properly-expand-boot-fat-partition-for-arch-linux
+[SOLVED] How to decrease partition and increase size of /boot / Newbie Corner / Arch Linux Forums https://bbs.archlinux.org/viewtopic.php?id=282952
+(502) Arch Linux: An 𝔼𝕟𝕔𝕣𝕪𝕡𝕥𝕖𝕕 Guide - YouTube https://www.youtube.com/watch?v=kXqk91R4RwU&t=1530s
+LUKS Encryption https://comfy.guide/client/luks/
+Installation guide - ArchWiki https://wiki.archlinux.org/title/Installation_guide
+My script for automated Arch Linux installation | Lorenzo Bettini https://www.lorenzobettini.it/2023/05/my-script-for-automated-arch-linux-installation/
+aui/fifo at master · helmuthdu/aui https://github.com/helmuthdu/aui/blob/master/fifo
+Automating Arch Linux Part 3: Creating a Custom Arch Linux Installer | Disconnected Systems https://disconnected.systems/blog/archlinux-installer/#the-complete-installer-script
+arch-pkgs/installer/install-arch at master · mdaffin/arch-pkgs https://github.com/mdaffin/arch-pkgs/blob/master/installer/install-arch
+Fdisk Command in Linux (Create Disk Partitions) | Linuxize https://linuxize.com/post/fdisk-command-in-linux/
+(500) LCL 14 - partitioning and formatting with parted and mkfs - Linux Command Line tutorial forensics - YouTube https://www.youtube.com/watch?v=nttLR55lFAY
+10+ parted command examples in Linux [Cheat Sheet] | GoLinuxCloud https://www.golinuxcloud.com/parted-command-in-linux/
+shell script - bash + how to automate creation of disk partitions in Linux - Unix & Linux Stack Exchange https://unix.stackexchange.com/questions/715461/bash-how-to-automate-creation-of-disk-partitions-in-linux
+regex101: build, test, and debug regex https://regex101.com/
+Generations · Wiki · Jackson Novak / Rebos · GitLab https://gitlab.com/Oglo12/rebos/-/wikis/generations

@@ -5,3 +5,17 @@ name = "rust"
 [language-server.rust-analyzer]
 command = "rust-analyzer"
 inlay-hints = true
+
+
+# [[language]]
+# name = "kitty"
+# scope = "source.toml"
+# # roots = ["kitty.conf"]
+# file-types = [ { glob = "kitty/*.conf" }]
+# comment-token = "#"
+# # grammar = "kitty"
+# language-servers = ["taplo"]
+
+[[language]]
+name = "toml"
+file-types = ["toml", { glob = "pdm.lock" }, { glob = "poetry.lock" }, { glob = "Cargo.lock" }, { glob = "uv.lock" }, { glob = "kitty.conf" }]

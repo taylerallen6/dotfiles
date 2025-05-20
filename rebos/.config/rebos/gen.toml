@@ -13,6 +13,7 @@ items = [
     # "git",
     "hyprland",
     "alacritty",
+    "kitty",
 
     # ADD USER DIRECTORIES
     "xdg-user-dirs",
@@ -41,7 +42,8 @@ items = [
     "unzip",
     "pavucontrol", # audio controls gui
     "alsa-utils", # misc audio utils
-    "firefox",
+    "firefox", # browser
+    "qutebrowser", # minimal browser
     "waybar",
     "stow", # sync dotfiles to their proper location.
     "blender",
@@ -64,6 +66,12 @@ items = [
     "flatpak",
     "curl",
     "wget",
+    "vulkan-intel",
+    "tmux",
+
+    # OVERLAY NETWORKS
+    # "zerotier-one",
+    "tailscale",
 
     # SCREEN SHARING
     "pipewire",

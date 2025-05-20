@@ -2,11 +2,6 @@
 sudo pacman -S git
 sudo pacman -S curl
 sudo pacman -S stow
-sudo pacman -S xdg-user-dirs
-
-### ADD USER DIRECTORIES
-# commands after installs:
-xdg-user-dirs-update
 
 ### INSTALL YAY
 git clone https://aur.archlinux.org/yay.git
@@ -35,6 +30,7 @@ stow waybar
 stow swaybg
 stow dot_themes
 stow dot_icons
+stow qutebrowser
 
 cd
 
@@ -62,8 +58,8 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/mast
 ### BLUETOOTH
 # commands after installs:
 # start service
-sudo systemctl start bluetooth
-sudo systemctl enable bluetooth
+sudo systemctl start bluetooth.service
+sudo systemctl enable bluetooth.service
 
 # SCREEN SHARING
 # https://gist.github.com/brunoanc/2dea6ddf6974ba4e5d26c3139ffb7580
@@ -108,3 +104,16 @@ gsettings set org.gnome.desktop.interface icon-theme "dracula-icons"
 ### alacritty themes
 # https://github.com/alacritty/alacritty-theme
 
+### qutebrowser theme
+git clone https://github.com/catppuccin/qutebrowser.git ~/dotfiles/qutebrowser/.config/qutebrowser/catppuccin
+
+
+### util scripts
+mkdir $HOME/.local/bin
+cp Documents/util_scripts/* $HOME/.local/bin/
+
+### Overlay network
+# tailscale: https://wiki.archlinux.org/title/Tailscale
+sudo systemctl enable tailscaled.service
+sudo systemctl start tailscaled.service
+sudo tailscale up

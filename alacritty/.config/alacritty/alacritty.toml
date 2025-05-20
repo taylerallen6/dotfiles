@@ -9,10 +9,14 @@ family = "JetBrainsMono Nerd Font"
 x = 12
 y = 12
 
-[general]
+# [window]
+# padding = { x = 12, y = 12 }
 
+[general]
 ### themes from https://github.com/alacritty/alacritty-theme.git
 import = [
     "~/.config/alacritty/themes/themes/tokyo-night.toml"
 ]
 
+[scrolling]
+multiplier = 10
