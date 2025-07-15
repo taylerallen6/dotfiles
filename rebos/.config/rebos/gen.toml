@@ -13,7 +13,7 @@ items = [
     # "git",
     "hyprland",
     "alacritty",
-    "kitty",
+    "helix",
 
     # ADD USER DIRECTORIES
     "xdg-user-dirs",
@@ -36,7 +36,7 @@ items = [
     "ranger", # file explorer
     "nmap", # network stuff
     "tree", # show file tree
-    "neofetch",
+    # "neofetch", # removed from pacman..
     "fastfetch",
     "htop",
     "unzip",
@@ -68,6 +68,7 @@ items = [
     "wget",
     "vulkan-intel",
     "tmux",
+    "ruff", # python lsp
 
     # OVERLAY NETWORKS
     # "zerotier-one",
@@ -113,7 +114,19 @@ items = [
 
     # USB STUFF
     "usbutils",
-    "udisks2"
+    "udisks2",
+
+    # NVIDIA DRIVERS
+    "nvidia",
+    "nvidia-utils",
+
+    # GRAPHICS
+    "mesa-utils",
+
+    # POWER MANAGEMENT
+    "tlp",
+    "ethtool",
+    "smartmontools",
 ]
 
 [managers.yay]

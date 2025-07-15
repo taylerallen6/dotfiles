@@ -6,7 +6,7 @@
 
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["clock"],
-    "modules-right": ["cpu", "memory", "disk", "temperature", "backlight", "pulseaudio", "bluetooth", "network", "battery"],
+    "modules-right": ["cpu", "memory", "disk", "temperature", "custom/power_usage", "backlight", "pulseaudio", "bluetooth", "network", "battery"],
 
     "hyprland/workspaces": {
         "on-click": "activate",
@@ -108,4 +108,10 @@
         "format-icons": [""],
         "on-click": "alacritty -e htop"
     },
+    "custom/power_usage": {
+        "exec": "~/.config/waybar/scripts/power_usage.sh",
+        "interval": 10,
+        "format": " {}",
+        "return-type": "json"
+    }
 }

@@ -1,0 +1,12 @@
+[Unit]
+Description=Prevent NVIDIA driver from loading
+Before=modprobe@drm.service
+
+[Service]
+Type=oneshot
+ExecStart=/bin/sh -c 'echo "install nvidia /bin/false" > /etc/modprobe.d/disable-nvidia.conf'
+RemainAfterExit=true
+
+[Install]
+WantedBy=multi-user.target
+

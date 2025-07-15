@@ -21,17 +21,10 @@ rm -r ~/.bashrc
 rm -r ~/.config/helix
 rm -r ~/.config/rebos
 
-stow dot_bashrc
-stow helix
-stow rebos
-stow alacritty
-stow hypr
-stow waybar
-stow swaybg
-stow dot_themes
-stow dot_icons
-stow qutebrowser
+./stow_commands.sh
 
+cd
+source ~/.bashrc
 cd
 
 ### REBOS
@@ -94,7 +87,9 @@ cd
 cd ~/dotfiles/dot_themes/.themes
 wget https://github.com/dracula/gtk/archive/master.zip -O dracula-gtk.zip
 unzip dracula-gtk
-mv gtk-master dracula-gtk
+cd dracula-gtk
+mv gtk-master/* .
+rm -r gtk-master
 
 cd
 
@@ -105,12 +100,12 @@ gsettings set org.gnome.desktop.interface icon-theme "dracula-icons"
 # https://github.com/alacritty/alacritty-theme
 
 ### qutebrowser theme
-git clone https://github.com/catppuccin/qutebrowser.git ~/dotfiles/qutebrowser/.config/qutebrowser/catppuccin
+# git clone https://github.com/catppuccin/qutebrowser.git ~/dotfiles/qutebrowser/.config/qutebrowser/catppuccin
 
 
 ### util scripts
 mkdir $HOME/.local/bin
-cp Documents/util_scripts/* $HOME/.local/bin/
+# cp Documents/util_scripts/* $HOME/.local/bin/
 
 ### Overlay network
 # tailscale: https://wiki.archlinux.org/title/Tailscale
